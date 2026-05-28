@@ -113,7 +113,6 @@ def main():
         lr_scheduler_type="cosine",
         report_to="none",
         optim="paged_adamw_8bit",
-        max_seq_length=MAX_SEQ_LENGTH,
     )
 
     # ── Load data ─────────────────────────────────────────────────────────────
