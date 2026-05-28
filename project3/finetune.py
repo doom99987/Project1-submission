@@ -135,7 +135,7 @@ def main():
     # ── Trainer ───────────────────────────────────────────────────────────────
     trainer = SFTTrainer(
         model=model,
-        tokenizer=tokenizer,
+        processing_class=tokenizer,
         train_dataset=dataset,
         peft_config=peft_config,
         args=training_args,
