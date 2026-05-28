@@ -1,0 +1,382 @@
+[
+  {
+    "id": "student_001",
+    "name": "Aisha Patel",
+    "graduation_year": 2025,
+    "degree": "B.S. Computer Science",
+    "university": "Georgia Tech",
+    "gpa": 3.8,
+    "skills": ["Python", "PyTorch", "TensorFlow", "SQL", "Docker", "AWS", "React", "FastAPI"],
+    "experience": [
+      {
+        "company": "Google",
+        "role": "Software Engineering Intern",
+        "duration": "Summer 2024",
+        "description": "Built a data pipeline using Apache Beam that processed 10TB/day of user telemetry. Reduced pipeline latency by 30% through batch optimization."
+      },
+      {
+        "company": "Georgia Tech Research Lab",
+        "role": "Undergraduate Research Assistant",
+        "duration": "Jan 2023 – May 2024",
+        "description": "Researched transformer-based models for code summarization. Co-authored a paper accepted to ACL 2024."
+      }
+    ],
+    "projects": [
+      {
+        "name": "MedRAG",
+        "description": "A RAG-based Q&A system for medical literature using LangChain, ChromaDB, and GPT-4. Indexed 50,000 PubMed abstracts with hybrid BM25 + vector search."
+      },
+      {
+        "name": "CodeLens",
+        "description": "VSCode extension using a fine-tuned CodeBERT model to generate inline docstrings. 800+ installs on marketplace."
+      }
+    ],
+    "seeking": "Full-time ML Engineer or AI Research Engineer roles starting June 2025",
+    "location": "Atlanta, GA (open to relocation)",
+    "github": "github.com/aishapatel-ml",
+    "linkedin": "linkedin.com/in/aishapatel",
+    "summary": "Strong ML/AI background with research experience and two internships. Passionate about applied NLP and production ML systems."
+  },
+  {
+    "id": "student_002",
+    "name": "Marcus Johnson",
+    "graduation_year": 2025,
+    "degree": "M.S. Data Science",
+    "university": "Carnegie Mellon University",
+    "gpa": 3.9,
+    "skills": ["Python", "R", "Spark", "Databricks", "dbt", "Snowflake", "Tableau", "Pandas", "Scikit-learn", "Kafka"],
+    "experience": [
+      {
+        "company": "Netflix",
+        "role": "Data Engineering Intern",
+        "duration": "Summer 2024",
+        "description": "Designed and deployed real-time streaming pipelines using Kafka and Spark Structured Streaming for content recommendation signals. Improved feature freshness from hourly to sub-minute latency."
+      },
+      {
+        "company": "JPMorgan Chase",
+        "role": "Data Analyst Intern",
+        "duration": "Summer 2023",
+        "description": "Built risk dashboards in Tableau and automated reporting workflows using Python and SQL, saving 15 analyst hours per week."
+      }
+    ],
+    "projects": [
+      {
+        "name": "StreamMetrics",
+        "description": "End-to-end streaming analytics platform using Kafka, Flink, and ClickHouse. Processes 1M events/sec with sub-second dashboards."
+      },
+      {
+        "name": "ChurnPredictor",
+        "description": "Gradient boosting model (XGBoost + SHAP) predicting SaaS customer churn with 91% AUC. Deployed as a REST API on AWS Lambda."
+      }
+    ],
+    "seeking": "Data Engineering or Analytics Engineering roles starting May 2025",
+    "location": "Pittsburgh, PA (open to remote)",
+    "github": "github.com/marcusj-data",
+    "linkedin": "linkedin.com/in/marcusjohnsondata",
+    "summary": "Expert-level data engineering skills with real-world experience at Netflix and JPMorgan. Specializes in streaming pipelines and large-scale analytics."
+  },
+  {
+    "id": "student_003",
+    "name": "Sofia Reyes",
+    "graduation_year": 2024,
+    "degree": "B.S. Electrical Engineering + Computer Science",
+    "university": "MIT",
+    "gpa": 3.7,
+    "skills": ["Python", "C++", "CUDA", "PyTorch", "ROS", "OpenCV", "SLAM", "Embedded Systems", "Linux"],
+    "experience": [
+      {
+        "company": "Boston Dynamics",
+        "role": "Robotics Software Intern",
+        "duration": "Summer 2023",
+        "description": "Implemented real-time object detection pipeline using YOLOv8 on Spot robot hardware. Achieved 60fps inference on edge device using TensorRT quantization."
+      },
+      {
+        "company": "MIT CSAIL",
+        "role": "Research Assistant",
+        "duration": "Sep 2022 – May 2024",
+        "description": "Developed SLAM algorithms for autonomous underwater vehicles. Published research at ICRA 2024."
+      }
+    ],
+    "projects": [
+      {
+        "name": "EdgeDetect",
+        "description": "CUDA-optimized real-time semantic segmentation pipeline running on NVIDIA Jetson. 3x throughput improvement over baseline PyTorch implementation."
+      },
+      {
+        "name": "DronePilot",
+        "description": "Autonomous drone navigation using reinforcement learning in PyBullet sim, then transferred to real hardware. Won 1st place at MIT robotics competition."
+      }
+    ],
+    "seeking": "Robotics Engineer, Computer Vision Engineer, or Embedded ML roles",
+    "location": "Cambridge, MA",
+    "github": "github.com/sofiareyes-robotics",
+    "linkedin": "linkedin.com/in/sofiareyes-mit",
+    "summary": "Rare combination of robotics, CV, and embedded ML. Published researcher with hands-on experience at Boston Dynamics. Strongest candidate for hardware-adjacent AI roles."
+  },
+  {
+    "id": "student_004",
+    "name": "Ethan Kim",
+    "graduation_year": 2025,
+    "degree": "B.S. Software Engineering",
+    "university": "University of Washington",
+    "gpa": 3.6,
+    "skills": ["TypeScript", "React", "Node.js", "Python", "GraphQL", "PostgreSQL", "Redis", "Kubernetes", "GCP", "Go"],
+    "experience": [
+      {
+        "company": "Stripe",
+        "role": "Backend Engineering Intern",
+        "duration": "Summer 2024",
+        "description": "Built a fraud signal aggregation service in Go handling 50K requests/sec. Integrated with ML inference pipeline to reduce false positive fraud flags by 12%."
+      },
+      {
+        "company": "Amazon",
+        "role": "SDE Intern",
+        "duration": "Summer 2023",
+        "description": "Developed internal tooling for A/B test configuration management. Built React frontend and Node.js API serving 200+ internal teams."
+      }
+    ],
+    "projects": [
+      {
+        "name": "Cartographer",
+        "description": "Open-source API gateway with built-in rate limiting, auth, and observability. 1.2k GitHub stars, used in production by 3 startups."
+      },
+      {
+        "name": "BriefBot",
+        "description": "Slack bot that summarizes long threads using Claude API with retrieval from company docs. Deployed to 5 student orgs at UW."
+      }
+    ],
+    "seeking": "Backend Engineer or Fullstack Engineer roles at high-growth startups or big tech",
+    "location": "Seattle, WA",
+    "github": "github.com/ethankim-eng",
+    "linkedin": "linkedin.com/in/ethankim-swe",
+    "summary": "Fullstack and backend engineer with Stripe and Amazon experience. Strong systems thinking, production mindset. Best fit for companies that move fast."
+  },
+  {
+    "id": "student_005",
+    "name": "Priya Nair",
+    "graduation_year": 2025,
+    "degree": "M.S. Artificial Intelligence",
+    "university": "Stanford University",
+    "gpa": 4.0,
+    "skills": ["Python", "PyTorch", "JAX", "Hugging Face", "LangChain", "RLHF", "DPO", "vLLM", "Kubernetes", "MLflow"],
+    "experience": [
+      {
+        "company": "Anthropic",
+        "role": "Research Intern",
+        "duration": "Summer 2024",
+        "description": "Worked on RLHF and constitutional AI training pipelines. Ran preference data collection experiments and contributed to alignment research on refusal calibration."
+      },
+      {
+        "company": "Hugging Face",
+        "role": "ML Engineer Intern",
+        "duration": "Summer 2023",
+        "description": "Fine-tuned and evaluated open LLMs for instruction following. Contributed to the Open LLM Leaderboard evaluation harness."
+      }
+    ],
+    "projects": [
+      {
+        "name": "AlignBench",
+        "description": "Evaluation framework for LLM alignment measuring helpfulness, harmlessness, and honesty across 1000+ test cases. Open sourced on GitHub with 400+ stars."
+      },
+      {
+        "name": "PersonaLLM",
+        "description": "Fine-tuned LLaMA-3 8B with DPO on synthetic preference pairs to adopt domain-specific personas while maintaining safety guardrails."
+      }
+    ],
+    "seeking": "AI Alignment Researcher, LLM Engineer, or Applied AI Scientist roles",
+    "location": "Palo Alto, CA",
+    "github": "github.com/priyanair-ai",
+    "linkedin": "linkedin.com/in/priyanair-ai",
+    "summary": "Top-tier AI/ML candidate. Alignment and LLM fine-tuning background from Anthropic and Hugging Face. 4.0 GPA at Stanford. Ideal for frontier AI labs or AI product companies."
+  },
+  {
+    "id": "student_006",
+    "name": "Jordan Williams",
+    "graduation_year": 2025,
+    "degree": "B.S. Computer Science",
+    "university": "Howard University",
+    "gpa": 3.5,
+    "skills": ["Python", "Java", "Spring Boot", "React", "MongoDB", "PostgreSQL", "Docker", "Azure", "Pytest", "Agile"],
+    "experience": [
+      {
+        "company": "Microsoft",
+        "role": "Software Engineering Intern",
+        "duration": "Summer 2024",
+        "description": "Built features for Azure DevOps using C# and React. Shipped a pipeline visualization component used by 300K+ developers."
+      },
+      {
+        "company": "Capital One",
+        "role": "Technology Intern",
+        "duration": "Summer 2023",
+        "description": "Developed microservices for credit card fraud detection using Java Spring Boot. Wrote comprehensive integration tests achieving 95% code coverage."
+      }
+    ],
+    "projects": [
+      {
+        "name": "HUConnect",
+        "description": "Campus networking platform for Howard students built with React and Node.js. 600+ registered users, featured by Howard's CS department."
+      },
+      {
+        "name": "FinTrack",
+        "description": "Personal finance tracker with ML-based spending categorization. Uses a fine-tuned BERT classifier on transaction descriptions."
+      }
+    ],
+    "seeking": "Software Engineer roles with growth potential; interested in fintech and developer tools",
+    "location": "Washington, D.C.",
+    "github": "github.com/jordanwilliams-dev",
+    "linkedin": "linkedin.com/in/jordanwilliams-tech",
+    "summary": "Well-rounded software engineer with Microsoft and Capital One experience. Strong testing discipline and full-stack capabilities. Excellent cultural communicator."
+  },
+  {
+    "id": "student_007",
+    "name": "Mei Chen",
+    "graduation_year": 2025,
+    "degree": "M.S. Computer Science (Systems)",
+    "university": "UC Berkeley",
+    "gpa": 3.8,
+    "skills": ["C", "C++", "Rust", "Python", "Linux Kernel", "eBPF", "Distributed Systems", "gRPC", "Prometheus", "Perf"],
+    "experience": [
+      {
+        "company": "Cloudflare",
+        "role": "Systems Engineering Intern",
+        "duration": "Summer 2024",
+        "description": "Wrote eBPF programs to instrument network packet processing at the kernel level. Built a low-overhead traffic analysis tool used in Cloudflare's DDoS mitigation pipeline."
+      },
+      {
+        "company": "Meta",
+        "role": "Production Engineering Intern",
+        "duration": "Summer 2023",
+        "description": "Optimized memory allocator behavior in a high-throughput service, reducing p99 latency by 18%. Used perf, flamegraphs, and custom profiling tooling."
+      }
+    ],
+    "projects": [
+      {
+        "name": "RustFS",
+        "description": "A userspace filesystem implemented in Rust using FUSE. Supports journaling and crash recovery. Written as a systems research project."
+      },
+      {
+        "name": "NetScope",
+        "description": "eBPF-based network observability toolkit for Kubernetes pods. Tracks latency, packet loss, and retransmits with no code changes required."
+      }
+    ],
+    "seeking": "Systems Engineer, Infrastructure Engineer, or Site Reliability Engineer roles",
+    "location": "Berkeley, CA (open to remote)",
+    "github": "github.com/meichen-systems",
+    "linkedin": "linkedin.com/in/meichen-systems",
+    "summary": "Deep systems expertise: kernel, eBPF, Rust, distributed systems. Cloudflare and Meta experience. Rare candidate for low-level performance-critical infrastructure roles."
+  },
+  {
+    "id": "student_008",
+    "name": "Darius Brooks",
+    "graduation_year": 2025,
+    "degree": "B.S. Computer Science + Statistics",
+    "university": "University of Michigan",
+    "gpa": 3.7,
+    "skills": ["Python", "R", "Stata", "SQL", "Causal Inference", "A/B Testing", "Scikit-learn", "Looker", "BigQuery", "dbt"],
+    "experience": [
+      {
+        "company": "Lyft",
+        "role": "Data Science Intern",
+        "duration": "Summer 2024",
+        "description": "Designed and analyzed A/B tests for driver incentive features. Used difference-in-differences methodology to evaluate a $2M driver bonus program, findings presented to VP."
+      },
+      {
+        "company": "University of Michigan",
+        "role": "Research Assistant (Economics)",
+        "duration": "Sep 2022 – May 2024",
+        "description": "Applied causal inference methods (IV, RDD) to study effects of minimum wage changes on employment. Analysis contributed to a working paper submitted to NBER."
+      }
+    ],
+    "projects": [
+      {
+        "name": "CausalKit",
+        "description": "Python library for causal inference with clean APIs for DiD, RDD, and synthetic control methods. 200+ GitHub stars."
+      },
+      {
+        "name": "PriceSense",
+        "description": "Dynamic pricing model for event tickets using demand forecasting (LightGBM) and price elasticity estimation. Backtested on StubHub historical data."
+      }
+    ],
+    "seeking": "Data Scientist or Applied Scientist roles; strong interest in experimentation and causal inference",
+    "location": "Ann Arbor, MI (open to relocation)",
+    "github": "github.com/dariusbrooks-ds",
+    "linkedin": "linkedin.com/in/dariusbrooks-ds",
+    "summary": "Statistician + data scientist hybrid. Unusually strong in causal inference and A/B testing — skills most DS candidates lack. Lyft internship with VP-level presentation."
+  },
+  {
+    "id": "student_009",
+    "name": "Leila Hassan",
+    "graduation_year": 2025,
+    "degree": "M.S. Human-Computer Interaction",
+    "university": "Carnegie Mellon University",
+    "gpa": 3.9,
+    "skills": ["User Research", "Figma", "Prototyping", "Python", "JavaScript", "React", "Usability Testing", "A/B Testing", "Accessibility", "Design Systems"],
+    "experience": [
+      {
+        "company": "Apple",
+        "role": "UX Research Intern",
+        "duration": "Summer 2024",
+        "description": "Led usability studies for an unreleased accessibility feature on iOS. Recruited participants, designed research protocol, and synthesized findings that directly influenced two shipped design changes."
+      },
+      {
+        "company": "IDEO",
+        "role": "Design Research Intern",
+        "duration": "Summer 2023",
+        "description": "Conducted ethnographic research and co-design workshops for a healthcare client. Delivered a journey map and opportunity brief used in the client's product roadmap."
+      }
+    ],
+    "projects": [
+      {
+        "name": "AccessAI",
+        "description": "Research study and prototype exploring how screen reader users interact with AI-generated content. Findings published as a CHI 2025 workshop paper."
+      },
+      {
+        "name": "FlowKit",
+        "description": "Figma component library with 120+ accessible components following WCAG 2.2 AA. Used by 5 student project teams at CMU."
+      }
+    ],
+    "seeking": "UX Researcher or Product Designer roles, especially at companies building AI products",
+    "location": "Pittsburgh, PA (open to relocation to NYC or SF)",
+    "github": "github.com/leilahassan-ux",
+    "linkedin": "linkedin.com/in/leilahassan-ux",
+    "summary": "Top-tier UX researcher with Apple and IDEO experience. Published researcher. Strong fit for product teams that take user research seriously, especially AI product companies."
+  },
+  {
+    "id": "student_010",
+    "name": "Ryan Okonkwo",
+    "graduation_year": 2025,
+    "degree": "B.S. Computer Science",
+    "university": "UT Austin",
+    "gpa": 3.4,
+    "skills": ["Python", "JavaScript", "React Native", "Expo", "Firebase", "Node.js", "GraphQL", "Stripe API", "App Store Connect", "Marketing Analytics"],
+    "experience": [
+      {
+        "company": "Self-employed",
+        "role": "Indie App Developer",
+        "duration": "2022 – present",
+        "description": "Built and launched 3 iOS/Android apps independently. Combined 8,000+ downloads. Generated $4,200 in revenue through in-app purchases and subscriptions."
+      },
+      {
+        "company": "Dell Technologies",
+        "role": "Software Intern",
+        "duration": "Summer 2024",
+        "description": "Contributed to internal mobile app for field service technicians using React Native. Shipped a barcode scanning feature used by 1,200 technicians."
+      }
+    ],
+    "projects": [
+      {
+        "name": "HabitStack",
+        "description": "Habit tracking app with ML-based nudge timing (predicts when user is most likely to complete a habit). 5,000+ downloads on App Store."
+      },
+      {
+        "name": "LocalBuzz",
+        "description": "Hyperlocal event discovery app using geofencing and user-generated content. Launched in Austin, 3,000+ registered users."
+      }
+    ],
+    "seeking": "Mobile Engineer or Fullstack Engineer roles; also open to early-stage startups",
+    "location": "Austin, TX",
+    "github": "github.com/ryanokonkwo",
+    "linkedin": "linkedin.com/in/ryanokonkwo",
+    "summary": "Self-starter who has shipped real products to real users. Mobile-first skillset with proven ability to take an idea from 0 to App Store independently. Strong fit for startup environments."
+  }
+]
