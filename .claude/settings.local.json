@@ -12,7 +12,8 @@
       "Bash(cat \"/c/Users/dkonv/AppData/Local/Temp/claude/C--Users-dkonv-OneDrive-david-Ai-Project1-submission/e699c3f4-6651-402d-9b4a-c35d0b0b421f/tasks/\"*.output)",
       "Bash(taskkill /F /IM python.exe)",
       "Bash(taskkill //F //IM python.exe)",
-      "Bash(netstat -ano)"
+      "Bash(netstat -ano)",
+      "Bash(python generate_training_data.py)"
     ]
   }
 }
