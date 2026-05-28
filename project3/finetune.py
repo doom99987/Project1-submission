@@ -110,7 +110,7 @@ def main():
         bf16=True,
         logging_steps=10,
         save_strategy="epoch",
-        evaluation_strategy="no",
+        eval_strategy="no",
         warmup_ratio=0.05,
         lr_scheduler_type="cosine",
         report_to="none",
