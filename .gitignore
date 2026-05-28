@@ -205,3 +205,7 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Vector databases (generated, do not commit)
+chroma_db/
+**/chroma_db/

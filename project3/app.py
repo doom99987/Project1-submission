@@ -144,7 +144,6 @@ with gr.Blocks(title="Game Rec Agent") as demo:
             chatbot = gr.Chatbot(
                 label="",
                 height=500,
-                type="messages",
             )
             with gr.Row():
                 msg_input = gr.Textbox(
