@@ -25,7 +25,7 @@ from transformers import (
     BitsAndBytesConfig,
     TrainingArguments,
 )
-from trl import SFTTrainer, DataCollatorForCompletionOnlyLM
+from trl import SFTTrainer
 
 # ── Config ────────────────────────────────────────────────────────────────────
 BASE_MODEL = "mistralai/Mistral-7B-Instruct-v0.3"  # ~14GB in 4-bit
@@ -139,9 +139,7 @@ def main():
         train_dataset=dataset,
         peft_config=peft_config,
         args=training_args,
-        dataset_text_field="text",
         max_seq_length=MAX_SEQ_LENGTH,
-        packing=False,
     )
 
     print("\nStarting training...")
