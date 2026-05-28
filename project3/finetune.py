@@ -23,9 +23,8 @@ from transformers import (
     AutoModelForCausalLM,
     AutoTokenizer,
     BitsAndBytesConfig,
-    TrainingArguments,
 )
-from trl import SFTTrainer
+from trl import SFTTrainer, SFTConfig
 
 # ── Config ────────────────────────────────────────────────────────────────────
 BASE_MODEL = "mistralai/Mistral-7B-Instruct-v0.3"  # ~14GB in 4-bit
@@ -100,7 +99,7 @@ def main():
     )
 
     # ── Training arguments ────────────────────────────────────────────────────
-    training_args = TrainingArguments(
+    training_args = SFTConfig(
         output_dir=OUTPUT_DIR,
         num_train_epochs=NUM_EPOCHS,
         per_device_train_batch_size=BATCH_SIZE,
@@ -110,11 +109,11 @@ def main():
         bf16=True,
         logging_steps=10,
         save_strategy="epoch",
-        eval_strategy="no",
         warmup_ratio=0.05,
         lr_scheduler_type="cosine",
         report_to="none",
         optim="paged_adamw_8bit",
+        max_seq_length=MAX_SEQ_LENGTH,
     )
 
     # ── Load data ─────────────────────────────────────────────────────────────
@@ -139,7 +138,6 @@ def main():
         train_dataset=dataset,
         peft_config=peft_config,
         args=training_args,
-        max_seq_length=MAX_SEQ_LENGTH,
     )
 
     print("\nStarting training...")
